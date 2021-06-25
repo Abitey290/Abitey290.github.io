@@ -108,6 +108,29 @@ article.manc{
     overflow-y: auto;
 }
 
+/*aside*/
+aside {
+    background:url("https://previews.123rf.com/images/romvo/romvo1004/romvo100400138/6744531-wood-background-texture-for-your-design.jpg");
+}
+aside #disqus_thread{
+    flex: 1;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 4px solid gold;
+    overflow-y: auto;
+    min-width: 400px;
+    min-height: 200px;
+    background: #35424a;
+}
+
+span img.resize{
+    height: 50px;
+    width: 50px;
+    
+}
+
 
 @media(max-width: 500px) {
 	html,
@@ -132,7 +155,7 @@ article.manc{
 
 	header, footer{
 		background-size: cover;
-		width: 100%;
+		max-width: 500px;
 	
 	}
 
