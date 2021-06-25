@@ -108,6 +108,68 @@ article.manc{
     overflow-y: auto;
 }
 
+
+@media(max-width: 500px) {
+	html,
+	body,
+	main,
+	header #head,
+	header nav,
+	article.manc,
+	aside.sidebar{
+		display: block;
+		flex: none;
+		float:  none;
+		text-align: justify;
+		width: 100%;
+	    padding: 0 20px 0 0;
+	}  
+	
+	header nav ul{
+	    display: block;
+	    text-align: justify;
+	}
+
+	header, footer{
+		background-size: cover;
+		width: 100%;
+		overflow-y: hidden;
+	}
+
+	header nav,
+	header nav li{
+		margin-top: 10px;
+		text-align: center;
+	}
+	#head{text-align: center;}
+
+	article.manc,
+	aside.sidebar{
+		margin: 0 auto;
+		padding: 10px;
+		font-size: 10px;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	article.manc{
+		border: none;
+	}
+
+	#showcase h1{
+		font-size: 36px;
+	}
+
+	main{
+		padding: 0;
+
+	}
+
+	span img{
+		margin: 20px 50px;
+	}
+}
+
 article p {
     font-size: 17px;
 }
