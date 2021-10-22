@@ -4,7 +4,8 @@ body{
     color: #fff;
     display: flex;
     flex-direction: column;
-    background: url("https://previews.123rf.com/images/romvo/romvo1004/romvo100400138/6744531-wood-background-texture-for-your-design.jpg");
+    /*background: url("https://previews.123rf.com/images/romvo/romvo1004/romvo100400138/6744531-wood-background-texture-for-your-design.jpg");*/
+    background: #fff;
 }
 
 .container{
